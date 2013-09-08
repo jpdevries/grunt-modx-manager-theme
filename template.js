@@ -7,7 +7,7 @@
 'use strict';
 
 // Basic template description
-exports.description = 'Create a WordPress theme.';
+exports.description = 'Create a MODX theme.';
 
 // Template-specific notes to be displayed before question prompts.
 exports.notes = '';
@@ -22,14 +22,9 @@ exports.warnOn = '*';
 exports.template = function( grunt, init, done ) {
 	init.process( {}, [
 		// Prompt for these values.
-		init.prompt( 'title', 'WP Theme' ),
-		{
-			name   : 'prefix',
-			message: 'PHP function prefix (alpha and underscore characters only)',
-			default: 'wptheme'
-		},
-		init.prompt( 'description', 'The best WordPress theme ever made!' ),
-		init.prompt( 'homepage', 'http://wordpress.org/themes' ),
+		init.prompt( 'title', 'MODX Theme' ),
+		init.prompt( 'description', 'The best MODX theme ever made!' ),
+		init.prompt( 'homepage', 'http://modx.com' ),
 		init.prompt( 'author_name' ),
 		init.prompt( 'author_email' ),
 		init.prompt( 'author_url' ),
