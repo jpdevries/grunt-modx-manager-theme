@@ -5,7 +5,7 @@
 
     <div id="helpBanner">
         <div id="helpLogo">
-            <img src="{$_config.manager_url}templates/default/images/modx-help-logo.png">
+            <img src="{$_config.manager_url}templates/{%= prefix %}/images/modx-help-logo.png">
         </div>
         <h3>{$_lang.help_main_head}</h3>
 

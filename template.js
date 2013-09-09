@@ -25,11 +25,11 @@ exports.template = function( grunt, init, done ) {
 		init.prompt( 'title', 'MODX Theme' ),
 		{
 			name   : 'prefix',
-			message: 'PHP function prefix (alpha and underscore characters only)',
+			message: 'Theme alias (alpha and underscore characters only)',
 			default: 'modxtheme'
 		},
 		init.prompt( 'description', 'The best MODX theme ever made!' ),
-		init.prompt( 'homepage', 'http://modx.com/' ),
+		init.prompt( 'homepage'),
 		init.prompt( 'author_name' ),
 		init.prompt( 'author_email' ),
 		init.prompt( 'author_url' ),
