@@ -1,5 +1,5 @@
-<div id="modx-panel-welcome-div"></div>
+<div id="{%= cssprefix %}-panel-welcome-div"></div>
 
-<div id="modx-dashboard" class="dashboard">
+<div id="{%= cssprefix %}-dashboard" class="dashboard">
 {$dashboard}
 </div>

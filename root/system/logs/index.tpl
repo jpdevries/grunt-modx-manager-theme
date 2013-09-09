@@ -1,1 +1,1 @@
-<div id="modx-panel-manager-log-div"></div>
+<div id="{%= cssprefix %}-panel-manager-log-div"></div>

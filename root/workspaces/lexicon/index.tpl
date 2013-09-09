@@ -1,1 +1,1 @@
-<div id="modx-panel-lexicon-div"></div>
+<div id="{%= cssprefix %}-panel-lexicon-div"></div>

@@ -1,1 +1,1 @@
-<div id="modx-panel-error-log-div"></div>
+<div id="{%= cssprefix %}-panel-error-log-div"></div>

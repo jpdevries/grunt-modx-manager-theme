@@ -1,1 +1,1 @@
-<div id="modx-import-html-div"></div>
+<div id="{%= cssprefix %}-import-html-div"></div>

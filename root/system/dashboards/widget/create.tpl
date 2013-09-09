@@ -1,1 +1,1 @@
-<div id="modx-panel-dashboard-widget-div"></div>
+<div id="{%= cssprefix %}-panel-dashboard-widget-div"></div>

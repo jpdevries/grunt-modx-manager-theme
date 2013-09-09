@@ -1,2 +1,2 @@
 {$error}
-<div id="modx-panel-workspace-div"></div>
+<div id="{%= cssprefix %}-panel-workspace-div"></div>

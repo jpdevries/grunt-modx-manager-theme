@@ -1,1 +1,1 @@
-<div id="modx-panel-groups-roles-div"></div>
+<div id="{%= cssprefix %}-panel-groups-roles-div"></div>

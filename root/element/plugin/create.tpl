@@ -1,2 +1,2 @@
-<div id="modx-panel-plugin-div"></div>
+<div id="{%= cssprefix %}-panel-plugin-div"></div>
 {$onPluginFormPrerender}

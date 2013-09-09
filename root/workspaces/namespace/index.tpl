@@ -1,1 +1,1 @@
-<div id="modx-panel-namespaces-div"></div>
+<div id="{%= cssprefix %}-panel-namespaces-div"></div>

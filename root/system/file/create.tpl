@@ -1,1 +1,1 @@
-<div id="modx-panel-file-create-div"></div>
+<div id="{%= cssprefix %}-panel-file-create-div"></div>

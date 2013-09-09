@@ -1,5 +1,5 @@
 <div class="container" id="help-content-here-people"></div>
-<div id="modx-page-help-content">
+<div id="{%= cssprefix %}-page-help-content">
 
     <h2>{$_lang.help_page_title}</h2>
 

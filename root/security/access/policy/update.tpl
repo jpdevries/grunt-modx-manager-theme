@@ -1,1 +1,1 @@
-<div id="modx-panel-access-policy-div"></div>
+<div id="{%= cssprefix %}-panel-access-policy-div"></div>

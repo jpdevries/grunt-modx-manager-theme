@@ -1,1 +1,1 @@
-<div id="modx-panel-resource-schedule-div"></div>
+<div id="{%= cssprefix %}-panel-resource-schedule-div"></div>

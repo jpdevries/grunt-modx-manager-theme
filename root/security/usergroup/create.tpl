@@ -1,1 +1,1 @@
-<div id="modx-panel-user-group-div"></div>
+<div id="{%= cssprefix %}-panel-user-group-div"></div>

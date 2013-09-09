@@ -1,11 +1,11 @@
 {$OnResourceTVFormPrerender}
 
 <input type="hidden" name="tvs" value="1" />
-<div id="modx-tv-tabs" class="x-form-label-top">
+<div id="{%= cssprefix %}-tv-tabs" class="x-form-label-top">
 {foreach from=$categories item=category}
 {if count($category.tvs) > 0}
 
-    <div id="modx-tv-tab{$category.id}" class="x-tab{if $category.hidden}-hidden{/if}" title="{$category.category}">
+    <div id="{%= cssprefix %}-tv-tab{$category.id}" class="x-tab{if $category.hidden}-hidden{/if}" title="{$category.category}">
     {foreach from=$category.tvs item=tv name='tv'}
 {if $tv->type NEQ "hidden"}
     <div class="x-form-item x-tab-item {cycle values=",alt"} modx-tv{if $smarty.foreach.tv.first} tv-first{/if}{if $smarty.foreach.tv.last} tv-last{/if}" id="tv{$tv->id}-tr">
@@ -14,7 +14,7 @@
                 {if $showCheckbox}<input type="checkbox" name="tv{$tv->id}-checkbox" class="modx-tv-checkbox" value="1" />{/if}
                 <span class="modx-tv-caption" id="tv{$tv->id}-caption">{if $tv->caption}{$tv->caption}{else}{$tv->name}{/if}</span>
             </div>
-            <a class="modx-tv-reset" id="modx-tv-reset-{$tv->id}" title="{$_lang.set_to_default}" style="float: left;"></a>
+            <a class="modx-tv-reset" id="{%= cssprefix %}-tv-reset-{$tv->id}" title="{$_lang.set_to_default}" style="float: left;"></a>
             {if $tv->description}
             <span class="modx-tv-label-description">{$tv->description}</span>
             {/if}
@@ -93,7 +93,7 @@ Ext.onReady(function() {
             tag: 'div'
             ,cls: 'x-tab-panel-header vertical-tabs-header'
             ,id: 'modx-resource-vtabs-header'
-            ,html: MODx.config.show_tv_categories_header == true ? '<h4 id="modx-resource-vtabs-header-title">'+_('categories')+'</h4>' : ''
+            ,html: MODx.config.show_tv_categories_header == true ? '<h4 id="{%= cssprefix %}-resource-vtabs-header-title">'+_('categories')+'</h4>' : ''
         }
     });
     {/literal}{/if}

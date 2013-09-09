@@ -1,2 +1,2 @@
-<div id="modx-panel-template-div"></div>
+<div id="{%= cssprefix %}-panel-template-div"></div>
 {$onTempFormPrerender}

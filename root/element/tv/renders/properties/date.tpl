@@ -1,4 +1,4 @@
-<div id="modx-tv-wprops-form{$tv}"></div>
+<div id="{%= cssprefix %}-tv-wprops-form{$tv}"></div>
 {literal}
 
 <script type="text/javascript">

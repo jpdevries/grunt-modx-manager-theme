@@ -1,1 +1,1 @@
-<div id="modx-panel-property-sets-div"></div>
+<div id="{%= cssprefix %}-panel-property-sets-div"></div>

@@ -1,2 +1,2 @@
-<div id="modx-panel-snippet-div"></div>
+<div id="{%= cssprefix %}-panel-snippet-div"></div>
 {$onSnipFormPrerender}

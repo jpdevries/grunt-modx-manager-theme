@@ -28,6 +28,11 @@ exports.template = function( grunt, init, done ) {
 			message: 'Theme alias (alpha and underscore characters only)',
 			default: 'modxtheme'
 		},
+		{
+			name   : 'cssprefix',
+			message: 'CSS Prefix (used for CSS selectors)',
+			default: 'modx'
+		},
 		init.prompt( 'description', 'The best MODX theme ever made!' ),
 		init.prompt( 'homepage'),
 		init.prompt( 'author_name' ),

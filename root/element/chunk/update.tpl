@@ -1,2 +1,2 @@
-<div id="modx-panel-chunk-div"></div>
+<div id="{%= cssprefix %}-panel-chunk-div"></div>
 {$onChunkFormPrerender}

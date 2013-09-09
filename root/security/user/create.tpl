@@ -1,2 +1,2 @@
 {$OnUserFormPrerender}
-<div id="modx-panel-user-div"></div>
+<div id="{%= cssprefix %}-panel-user-div"></div>

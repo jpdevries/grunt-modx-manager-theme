@@ -1,1 +1,1 @@
-<div id="modx-panel-fc-profile-div"></div>
+<div id="{%= cssprefix %}-panel-fc-profile-div"></div>

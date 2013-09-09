@@ -1,5 +1,5 @@
-<div id="modx-panel-resource-div"></div>
-<div id="modx-resource-tvs-div">{$tvOutput}</div>
+<div id="{%= cssprefix %}-panel-resource-div"></div>
+<div id="{%= cssprefix %}-resource-tvs-div">{$tvOutput}</div>
 {foreach from=$hidden item=tv name='tv'}
     <input type="hidden" id="tvdef{$tv->id}" value="{$tv->default_text|escape}" />
     {$tv->get('formElement')}

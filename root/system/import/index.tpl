@@ -1,1 +1,1 @@
-<div id="modx-import-resources-div"></div>
+<div id="{%= cssprefix %}-import-resources-div"></div>

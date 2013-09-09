@@ -1,2 +1,2 @@
-<div id="modx-panel-tv-div"></div>
+<div id="{%= cssprefix %}-panel-tv-div"></div>
 {$onTVFormPrerender}

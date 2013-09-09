@@ -39,25 +39,25 @@
 {$scr}
 {/foreach}
 </head>
-<body id="modx-body-tag">
+<body id="{%= cssprefix %}-body-tag">
 
-<div id="modx-browser"></div>
-<div id="modx-container">
-    <div id="modx-header">
-        <div id="modx-navbar">
-            <ul id="modx-user-menu">
+<div id="{%= cssprefix %}-browser"></div>
+<div id="{%= cssprefix %}-container">
+    <div id="{%= cssprefix %}-header">
+        <div id="{%= cssprefix %}-navbar">
+            <ul id="{%= cssprefix %}-user-menu">
                 {$navbUser}
             </ul>
-            <ul id="modx-topnav">
-                <li id="modx-home-dashboard">
+            <ul id="{%= cssprefix %}-topnav">
+                <li id="{%= cssprefix %}-home-dashboard">
                     <a href="?a=welcome" title="{$_lang.dashboard}">{$_lang.dashboard}</a>
                 </li>
-                <li id="modx-manager-search"></li>
+                <li id="{%= cssprefix %}-manager-search"></li>
                 {$navb}
             </ul>
         </div>
 
         <div id="modAB"></div>
-        <div id="modx-leftbar"></div>
-        <div id="modx-content">
-            <div id="modx-panel-holder"></div>
+        <div id="{%= cssprefix %}-leftbar"></div>
+        <div id="{%= cssprefix %}-content">
+            <div id="{%= cssprefix %}-panel-holder"></div>
